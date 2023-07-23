@@ -31,9 +31,10 @@ while True:
 
     cv2.imshow('image',img)
 
-        # setting mouse handler for the image
-        # and calling the click_event() function
 
     cv2.setMouseCallback('image', click_event)
+            # setting mouse handler for the image
+        # and calling the click_event() function
+
 
     cv2.waitKey(1)
