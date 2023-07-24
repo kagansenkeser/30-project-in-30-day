@@ -10,7 +10,6 @@ xlist[0]=-3
 ylist[0]=-3
 def click_event(event, x, y, flags, params):
     if event == cv2.EVENT_LBUTTONDOWN:
-
         print(x, ' ', y)
         font = cv2.FONT_HERSHEY_SIMPLEX
         xlist[0]=x
